@@ -1,0 +1,165 @@
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.img1 {
+    background-image: url(../assets/Rectangle\ 2.png);
+    height: 650px;
+    width: 580px;
+}
+
+.img2 {
+    background-image: url(../assets/Rectangle\ 2\ \(1\).png);
+    height: 650px;
+    width: 580px;
+
+}
+
+.img3 {
+    background-image: url(../assets/Rectangle\ 2\ \(2\).png);
+    height: 650px;
+    background-size: cover;
+    width: 580px;
+}
+
+.box-image {
+    width: 580px;
+}
+
+.title-back {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 41px;
+}
+
+.title-p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: red !important;
+}
+
+.title-1 {
+    position: absolute;
+    height: 166px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 685px;
+    align-items: center;
+    width: 100%;
+}
+
+.box:hover .title-1 {
+    transition: 0.6s;
+    background-image: url(../assets/Rectangle\ 2.1.png); 
+    top: 485px;
+}
+
+.resto {
+    margin-top: 124px;
+}
+
+.video-table {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+} 
+
+.video-table img {
+    max-width: 100%;
+    height: auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 17px;
+    grid-row-gap: 17px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 4 / 4;
+}
+
+.div2 {
+    grid-area: 1 / 4 / 4 / 9;
+}
+
+.div3 {
+    grid-area: 1 / 9 / 4 / 13;
+}
+
+.div4 {
+    grid-area: 4 / 1 / 10 / 8;
+}
+
+.div5 {
+    grid-area: 4 / 8 / 7 / 13;
+}
+
+.div6 {
+    grid-area: 7 / 8 / 10 / 13;
+}
+
+.parent img {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 img {
+    width: 50%;
+}
+
+.img-size {
+    width: 580px;
+}
